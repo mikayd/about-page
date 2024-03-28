@@ -56,14 +56,16 @@
             <div class = "membership">
                 <h2 style = "text-decoration: underline;"> Become a Member:</h2>
                 <div id="error"></div>
-                <form id="form" action="/action_page.php" method="GET">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
+                <form id="form">
+                   <div> 
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" ><br>
+                   </div>
+                   <div>
                     <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="lname"><br><br>
-                    <input type="submit" id ="submit" value="Join Now">
+                    <input type="text" id="email" name="email"><br><br>
+                   </div>
+                    <button type ="submit">Join Now</button>
                   </form> 
                   
             </div>
