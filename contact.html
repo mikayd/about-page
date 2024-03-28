@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -54,13 +55,14 @@
         <div class= "second_column">
             <div class = "membership">
                 <h2 style = "text-decoration: underline;"> Become a Member:</h2>
-                <form action="/action_page.php">
+                <div id="error"></div>
+                <form id="form" action="/action_page.php" method="GET">
                     <label for="fname">First name:</label><br>
                     <input type="text" id="fname" name="fname"><br>
                     <label for="lname">Last name:</label><br>
                     <input type="text" id="lname" name="lname"><br>
                     <label for="email">Email:</label><br>
-                    <input type="text" id="lname" name="lname"><br><br>
+                    <input type="text" id="email" name="lname"><br><br>
                     <input type="submit" id ="submit" value="Join Now">
                   </form> 
                   
